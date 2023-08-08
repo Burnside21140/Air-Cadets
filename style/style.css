@@ -32,6 +32,10 @@ body {
   columns: 2;
 }
 
+.article-image {
+  width: 100%;
+  height: 100%;
+}
 
 article {
   font-size: var(--fs-400);

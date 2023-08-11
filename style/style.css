@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'Oxygen';
+  src: url(fonts/Oxygen-Regular.ttf);
+}
+
 html {
   margin: 0rem 5%;
   box-shadow: 0 4px 8px 0 rgba(20, 181, 235, 0.6);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*grid*/

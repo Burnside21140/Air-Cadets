@@ -6,7 +6,7 @@
 html {
   margin: 0rem 5%;
   box-shadow: 0 4px 8px 0 rgba(20, 181, 235, 0.6);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*grid*/
@@ -41,6 +41,7 @@ body {
 .article-image {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 
 article {
@@ -52,6 +53,27 @@ article {
 
 div {
   width: 100%;
+}
+
+@media (max-width: 850px) {
+  .article-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .picture-div {
+    width: 100%;
+    height: 100%;
+  }
+
+  .picture-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
 /*the navbar styling*/
